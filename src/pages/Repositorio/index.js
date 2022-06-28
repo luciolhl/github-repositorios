@@ -73,6 +73,11 @@ export default function Repositorio(props){
                     </li>
                 ))}
             </IssuesList>
+
+            <PageActions>
+                <button type='butto' onClick={() => {}}>Voltar</button>
+                <button type='butto' onClick={() => {}}>Proxima</button>
+            </PageActions>
         </Container>
     )
 }
